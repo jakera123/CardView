@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zxp.cardview.MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#e97272">
+
+        <ImageView android:layout_height="150dp"
+                   android:layout_width="wrap_content"
+                  android:background="@drawable/one"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text=" 慧聪涂料网讯：中国传统的油漆工艺无论从材质、效果、色彩以及技法都是世界先进水平，但是这些工艺的复杂程度非常高，传承人很少。时代在改变，社会在进步，每个时代都有它的经典。"
+            android:textColor="#ece5e5"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#e97272">
+
+            <ImageView android:layout_height="160dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/two"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="广州哥特艺术装饰有限公司是一家集艺术涂料研发，艺术涂料培训，艺术涂料销售，艺术涂料施工于一体的专业化艺术涂装公司。"
+                android:textColor="#ece5e5"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
